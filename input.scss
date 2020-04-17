@@ -1,0 +1,15 @@
+$font-stack: serif, Helvetica, sans-serif;
+$primary-color: #323;
+
+body {
+    background:beige;
+    color: $primary-color;
+    font-family: $font-stack;
+    padding: 10px 20px;
+    height: 2000px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 5%;
+}

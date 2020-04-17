@@ -1,0 +1,40 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2% 3%;
+}
+
+h1 {
+	margin: 3% 0 2%;
+	text-align: left;
+}
+
+.form {
+
+}
+
+.form-field {
+	margin-bottom: 20px;
+}
+
+.name {
+	display: inline-block;
+	margin-right: 10px;
+	width: 200px !important;
+}
+
+.contact input {
+	height: 30px;
+	width: 410px;
+}
+
+.contact input[type=submit] {
+	width: 120px;
+}
+
+.contact input[type=textarea] {
+	height: 100px;
+}

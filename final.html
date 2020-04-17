@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game of the Year</title>
+
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="input.css">
+
+    <style>
+         div.bar {
+				display: inline-block;
+				width: 120px;
+				height: 175px;
+                background-color: teal;
+                margin-right: 5px;
+            }
+
+        body {
+                    background:beige;
+                    padding: 10px 20px;
+        }
+        
+        </style>
+    
+</head>  
+<body>
+    <h1>Game of the Year</h1>
+    <h2>Data from the games I played</h2>
+    <div id="content" class="animated shake"></div>
+    
+    <h1>Contact with Me</h1>
+
+	<div class="contact">
+		<form method="post" action="/add">
+			<div class="form-field">
+				<label>Name</label><br>
+				<input type="text" class="name" name="firstName" placeholder="First name" required>
+				<input type="text" class="name" name="lastName" placeholder="Last name" required>				
+			</div>
+			<div class="form-field">
+				<label>Email</label><br>
+				<input type="email" name="email" placeholder="" required>
+			</div>
+			<div class="form-field">
+				<label>Comment</label><br>
+				<input type="textarea" name="message" placeholder="" required>
+			</div>
+			<input class="submit" type="submit" value="Submit">
+		</form>
+    </div>
+    
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type = "text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="d3.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="lini.js"></script>
+
+</body> 
+</html>

@@ -1,0 +1,14 @@
+body {
+  background: beige;
+  color: #323;
+  font-family: serif, Helvetica, sans-serif;
+  padding: 10px 20px;
+  height: 2000px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 5%;
+}
+
+/*# sourceMappingURL=input.css.map */
